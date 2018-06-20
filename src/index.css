@@ -8,22 +8,23 @@ body, input {
 
 input {
   padding: 0.5em;
-  border: 1px solid #f32e5b;
-  background-color: #fbbfcd;
+  border: 1px solid #779ecb;
+  background-color: rgba(0,0,0,0.1);
 }
 
 button, .button, input[type="submit"] {
-  background-color: #f32e5b;
-  border: 1px solid #e10d3d;
+  background-color: #779ecb;
+  border: 1px solid #254f80;
   color: white;
   padding: 0.5em;
   transition: all 0.2s;
 }
 button:hover, .button:hover, input[type="submit"]:hover {
-  background-color: #f65e81;
+  background-color: #254f80;
+  cursor: pointer;
 }
 button:active, .button:active, input[type="submit"]:active {
-  background-color: #f4466e;
+  background-color: #254f80;
 }
 button.full-width, .button.full-width, input[type="submit"].full-width {
   width: 100%;
